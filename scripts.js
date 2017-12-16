@@ -15,3 +15,7 @@ setupModeButtons();
 function reset() {
   colors = getRandomColors(numOfSquares);
 }
+
+function getRandomColors(num){
+  var arr= [];
+}
