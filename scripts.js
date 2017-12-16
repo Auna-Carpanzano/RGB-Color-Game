@@ -18,4 +18,7 @@ function reset() {
 
 function getRandomColors(num){
   var arr= [];
+  for(var i=0; i < num; i++){
+    arr.push(randomColor());
+  }
 }
