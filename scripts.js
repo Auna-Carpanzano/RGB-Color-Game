@@ -2,7 +2,7 @@
 
 function setupModeButtons() {
   $(".mode").on("click", function () {
-
+    $(".mode").first().removeClass("selected");
   });
 }
 
