@@ -10,5 +10,8 @@ body {
 }
 
 .square {
-
+  width: 30%;
+  padding-bottom: 30%;
+  margin: 1.66%;
+  background-color: purple;
 }
