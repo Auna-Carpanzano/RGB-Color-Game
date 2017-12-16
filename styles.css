@@ -3,4 +3,7 @@
 body {
   background-color: #000000;
   color: rgb(220, 220, 220);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
 }
