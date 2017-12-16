@@ -62,3 +62,8 @@ button:hover {
   color: black;
   background-color: rgb(220, 220, 220);
 }
+
+#message {
+  display: inline-block;
+  width: 20%;
+}
