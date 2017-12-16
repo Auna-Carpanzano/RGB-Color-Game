@@ -17,3 +17,8 @@ body {
   border-radius: 15%;
   float: left;
 }
+
+#container {
+  margin: 20px auto;
+  max-width: 600px;
+}
