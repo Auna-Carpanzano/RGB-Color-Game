@@ -40,3 +40,7 @@ h1 {
   letter-spacing: 5px;
   padding: 20px 0;
 }
+
+#colorDisplay {
+  font-size: 200%;
+}
