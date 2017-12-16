@@ -50,4 +50,6 @@ button {
   color: rgb(220, 220, 220);
   border: none;
   outline: none;
+  height: 100%;
+  letter-spacing: 2.5px;
 }
