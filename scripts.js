@@ -1,4 +1,5 @@
 /*globals $:false */
+var numOfSquares = 6;
 
 function setupModeButtons() {
   $(".mode").on("click", function () {
