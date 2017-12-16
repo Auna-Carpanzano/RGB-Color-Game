@@ -14,4 +14,6 @@ body {
   padding-bottom: 30%;
   margin: 1.66%;
   background-color: purple;
+  border-radius: 15%;
+  float: left;
 }
