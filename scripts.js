@@ -23,3 +23,7 @@ function getRandomColors(num){
   }
   return arr;
 }
+
+function randomColor(){
+
+}
