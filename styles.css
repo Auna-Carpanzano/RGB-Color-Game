@@ -48,4 +48,6 @@ h1 {
 button {
   background-color: transparent;
   color: rgb(220, 220, 220);
+  border: none;
+  outline: none;
 }
