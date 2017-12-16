@@ -44,3 +44,8 @@ h1 {
 #colorDisplay {
   font-size: 200%;
 }
+
+button {
+  background-color: transparent;
+  color: rgb(220, 220, 220);
+}
