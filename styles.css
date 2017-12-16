@@ -52,4 +52,8 @@ button {
   outline: none;
   height: 100%;
   letter-spacing: 2.5px;
+  font-size: inherit;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
 }
