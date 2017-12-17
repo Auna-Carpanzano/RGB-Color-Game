@@ -14,6 +14,7 @@ function setupModeButtons() {
   });
 }
 
+setupSquares();
 setupModeButtons();
 reset();
 
@@ -54,9 +55,13 @@ function pickColor(){
 }
 
 function setupSquares(){
-    $(".square").on("click", function(){
-      var clickedColor= this.style.backgroundColor;
-    });
+  $(".square").on("click", function(){
+    var clickedColor= this.style.backgroundColor;
+    if (clickedColor === pickedColor){
+    }
+    else {
+      this.style.background= "black";
+    }
+  });
 }
 
-setupSquares();
