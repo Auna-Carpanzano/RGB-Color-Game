@@ -63,6 +63,7 @@ function setupSquares(){
       $("#message").text("Correct!");
       $("#reset").text("Play again?");
       changeColors(clickedColor);
+      $("h1").css("background", clickedColor);
     }
     else {
       this.style.background= "black";
