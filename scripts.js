@@ -70,3 +70,6 @@ function setupSquares(){
   });
 }
 
+function changeColors(color){
+ $(".square").css("background", color);
+}
