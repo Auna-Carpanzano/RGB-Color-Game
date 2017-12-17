@@ -4,6 +4,14 @@ var colors = [];
 var squares = $(".square");
 var pickedColor;
 
+init();
+
+function init() {
+  setupSquares();
+  setupModeButtons();
+  reset();
+}
+
 function setupModeButtons() {
   $(".mode").on("click", function () {
     $(".mode").first().removeClass("selected");
@@ -13,10 +21,6 @@ function setupModeButtons() {
     reset();
   });
 }
-
-setupSquares();
-setupModeButtons();
-reset();
 
 $("#reset").on("click", function() {
 	reset();
