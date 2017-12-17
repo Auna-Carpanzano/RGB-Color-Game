@@ -1,6 +1,7 @@
 /*globals $:false */
 var numOfSquares = 6;
 var colors = [];
+var squares = $(".square");
 
 function setupModeButtons() {
   $(".mode").on("click", function () {
