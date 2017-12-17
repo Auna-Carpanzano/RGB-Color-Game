@@ -24,6 +24,7 @@ $("#reset").on("click", function() {
 
 function reset() {
   colors = getRandomColors(numOfSquares);
+  pickedColor= pickColor();
   for(var i=0; i<squares.length; i++){
     if(colors[i]){
       squares[i].style.display= "block";
