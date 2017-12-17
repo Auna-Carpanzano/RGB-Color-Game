@@ -62,6 +62,7 @@ function setupSquares(){
     if (clickedColor === pickedColor){
       $("#message").text("Correct!");
       $("#reset").text("Play again?");
+      changeColors(clickedColor);
     }
     else {
       this.style.background= "black";
