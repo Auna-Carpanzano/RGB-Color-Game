@@ -8,6 +8,8 @@ function setupModeButtons() {
     $(".mode").first().removeClass("selected");
     $(".mode").last().removeClass("selected");
     $(this).addClass("selected");
+    $(this).text() === "Easy" ? numOfSquares = 3: numOfSquares = 6;
+    reset();
   });
 }
 
