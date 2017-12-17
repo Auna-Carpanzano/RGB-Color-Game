@@ -34,6 +34,7 @@ function reset() {
       squares[i].style.display= "none";
     }
   }
+  $("h1").css("background", "black");
 }
 
 function getRandomColors(num){
