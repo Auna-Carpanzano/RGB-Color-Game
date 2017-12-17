@@ -53,7 +53,9 @@ function pickColor(){
 }
 
 function setupSquares(){
+    $(".square").on("click", function(){
 
+    });
 }
 
 setupSquares();
