@@ -2,6 +2,7 @@
 var numOfSquares = 6;
 var colors = [];
 var squares = $(".square");
+var pickedColor;
 
 function setupModeButtons() {
   $(".mode").on("click", function () {
@@ -54,7 +55,7 @@ function pickColor(){
 
 function setupSquares(){
     $(".square").on("click", function(){
-
+      var clickedColor= this.style.backgroundColor;
     });
 }
 
