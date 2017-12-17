@@ -16,6 +16,10 @@ function setupModeButtons() {
 setupModeButtons();
 reset();
 
+$("#reset").on("click", function() {
+	reset();
+});
+
 function reset() {
   colors = getRandomColors(numOfSquares);
   for(var i=0; i<squares.length; i++){
