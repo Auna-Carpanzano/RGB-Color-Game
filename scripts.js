@@ -58,9 +58,12 @@ function setupSquares(){
   $(".square").on("click", function(){
     var clickedColor= this.style.backgroundColor;
     if (clickedColor === pickedColor){
+      $("#message").text("Correct!");
+      $("#reset").text("Play again?");
     }
     else {
       this.style.background= "black";
+      $("#message").text("Try again!");
     }
   });
 }
