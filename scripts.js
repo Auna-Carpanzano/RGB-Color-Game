@@ -23,7 +23,7 @@ function setupModeButtons() {
 }
 
 $("#reset").on("click", function() {
-	reset();
+  reset();
 });
 
 function reset() {
