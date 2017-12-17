@@ -16,6 +16,14 @@ reset();
 
 function reset() {
   colors = getRandomColors(numOfSquares);
+  for(var i=0; i<squares.length; i++){
+    if(colors[i]){
+      squares[i].style.display= "block";
+      squares[i].style.backgroundColor= colors[i];
+    } else {
+      squares[i].style.display= "none";
+    }
+  }
 }
 
 function getRandomColors(num){
