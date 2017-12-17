@@ -48,5 +48,5 @@ function randomColor(){
 }
 
 function pickColor(){
-
+  var randomNum= Math.floor(Math.random() * colors.length);
 }
