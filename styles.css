@@ -53,6 +53,7 @@ button {
   background-color: transparent;
   color: rgb(220, 220, 220);
   border: none;
+  cursor: pointer;
   outline: none;
   height: 100%;
   letter-spacing: 2.5px;
